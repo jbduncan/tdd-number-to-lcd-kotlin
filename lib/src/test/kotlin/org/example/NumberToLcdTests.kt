@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test
 - DONE: 0
 - DONE: 1
 - 2
+- @ParameterizedTest
 - 3
 - ...
 - 9
@@ -33,6 +34,17 @@ class NumberToLcdTests {
 
             |
             |
+        """.trimIndent()
+        assertEquals(expected, result)
+    }
+
+    @Test
+    fun integerTwoToLcdTwo() {
+        val result = numberToLcd(2)
+        val expected = """
+             _
+             _|
+            |_
         """.trimIndent()
         assertEquals(expected, result)
     }
