@@ -4,5 +4,9 @@
 package org.example
 
 fun numberToLcd(number: Int): String {
-    TODO()
+    return """
+         _
+        | |
+        |_|
+    """.trimIndent()
 }
