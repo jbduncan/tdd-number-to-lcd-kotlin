@@ -7,10 +7,17 @@ fun numberToLcd(number: Int): String {
             |
             |
         """.trimIndent()
+    } else if (number == 2) {
+        return """
+             _
+             _|
+            |_
+        """.trimIndent()
+    } else {
+        return """
+             _
+            | |
+            |_|
+        """.trimIndent()
     }
-    return """
-         _
-        | |
-        |_|
-    """.trimIndent()
 }
