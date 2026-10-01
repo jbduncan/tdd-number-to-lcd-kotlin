@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test
  */
 class NumberToLcdTests {
     @Test
-    fun zero() {
+    fun integerZeroToLcdZero() {
         val result = numberToLcd(0)
         val expected = """
              _
@@ -27,7 +27,7 @@ class NumberToLcdTests {
     }
 
     @Test
-    fun integerOneToLCDOne() {
+    fun integerOneToLcdOne() {
         val result = numberToLcd(1)
         val expected = """
 
