@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 /*
-- 0
-- 1
+- DONE: 0
+- DONE: 1
 - 2
 - 3
 - ...
@@ -25,6 +25,7 @@ class NumberToLcdTests {
         """.trimIndent()
         assertEquals(expected, result)
     }
+
     @Test
     fun integerOneToLCDOne() {
         val result = numberToLcd(1)
