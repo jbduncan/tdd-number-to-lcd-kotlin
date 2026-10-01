@@ -25,4 +25,14 @@ class NumberToLcdTests {
         """.trimIndent()
         assertEquals(expected, result)
     }
+    @Test
+    fun integerOneToLCDOne() {
+        val result = numberToLcd(1)
+        val expected = """
+
+            |
+            |
+        """.trimIndent()
+        assertEquals(expected, result)
+    }
 }
